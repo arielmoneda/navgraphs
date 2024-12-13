@@ -11,6 +11,7 @@ import { MyChart } from "./components/my-chart";
 import { SidebarProvider, SidebarTrigger } from "@/components/ui/sidebar";
 import { AppSidebar } from "@/components/app-sidebar";
 import { MyPie } from "./components/my-pie";
+import { MyBar } from "./components/my-chart-bar.jsx";
 
 function App() {
   return (
@@ -49,6 +50,7 @@ function App() {
         <section className="flex-1 min-h-8 flex gap-4">
           <MyChart />
           <MyPie/>
+          <MyBar/>
         </section>
         
       </main>
